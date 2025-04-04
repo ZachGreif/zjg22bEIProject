@@ -1,5 +1,15 @@
 {
   "dependencies": {
+    "com.barmetler.roadsystem": {
+      "version": "file:com.barmetler.roadsystem",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.burst": "1.4.5",
+        "com.unity.collections": "0.15.0-preview.21",
+        "com.unity.mathematics": "1.2.6"
+      }
+    },
     "com.unity.burst": {
       "version": "1.8.17",
       "depth": 1,
@@ -15,6 +25,16 @@
       "depth": 0,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.collections": {
+      "version": "1.2.4",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.burst": "1.6.6",
+        "com.unity.test-framework": "1.1.31"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.editorcoroutines": {
@@ -53,6 +73,17 @@
         "com.unity.xr.oculus": "4.2.0",
         "com.unity.xr.openxr": "1.11.0"
       }
+    },
+    "com.unity.formats.usd": {
+      "version": "https://github.com/Unity-Technologies/usd-unity-sdk.git?path=package/com.unity.formats.usd",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.timeline": "1.0.0",
+        "com.unity.modules.screencapture": "1.0.0",
+        "com.unity.modules.physics": "1.0.0"
+      },
+      "hash": "da7ff35eb8300236269eeec96b287faa2aa98395"
     },
     "com.unity.ide.rider": {
       "version": "3.0.31",
